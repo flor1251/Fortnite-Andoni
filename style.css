@@ -142,7 +142,7 @@ input {
 }
 
 .input {
-  background-color: #b4e3f7;
+  background-color: #fdf800;
   border-radius: 5px;
   padding: 5px;
   margin: 2px;
@@ -159,10 +159,10 @@ input {
 }
 
 .homero-marge h2 {
-  font-family: "simpsonfont";
+  font-family: "fortnite";
   font-size: 25px;
-  color: #0d7cc1;
-  background-color: #fed420;
+  color: white;
+  background-color: #ef540a;
   padding: 15px;
   border-radius: 8px;
 }
