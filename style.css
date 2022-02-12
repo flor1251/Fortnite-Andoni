@@ -49,6 +49,8 @@ input {
   font-size: 38px;
   padding: 0;
   list-style: none;
+  margin: 10px;
+  border-radius: 8px;
   /* margin: 0; revisar si le pongo o no el margin 0 ....................................................*/
 }
 
@@ -76,6 +78,7 @@ input {
   background-color: #fdf800;
   border-radius: 8px;
   padding: 8px;
+  margin: 10px;
 }
 
 .fieldset {
@@ -154,6 +157,46 @@ input {
 
 /* SECTION HOMERO Y MARGE ---------------------------------------------------------------------*/
 
+.skins-variadas {
+  height: 80px;
+  background-color: #ef540a;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  color: #fdf800;
+  border-radius: 8px;
+}
+
+.skins-variadas a {
+  color: #fdf800;
+}
+
+.skins-cap1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.cap1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #ef540a solid 2px;
+  border-radius: 8px;
+  margin: 5px;
+  padding-top: 10px;
+  width: 98%;
+  
+}
+
+.cap1 img {
+  width: 100%;
+  height: auto;
+}
+
 .homero-marge img {
   height: 400px;
 }
@@ -184,7 +227,7 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: #08589f solid 2px;
+  border: #ef540a solid 2px;
   border-radius: 8px;
   margin: 5px;
   padding-top: 10px;
